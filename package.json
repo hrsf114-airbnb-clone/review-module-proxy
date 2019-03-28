@@ -1,0 +1,39 @@
+{
+  "name": "full-stack-demo",
+  "version": "1.0.0",
+  "description": "A mini application to walkthrough how a fullstack applicaiton is built",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server-dev": "nodemon server/server.js",
+    "server": "node server/server.js",
+    "react-dev": "webpack -d -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinkevin25/full-stack-demo.git"
+  },
+  "author": "Kevin Chin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinkevin25/full-stack-demo/issues"
+  },
+  "homepage": "https://github.com/chinkevin25/full-stack-demo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.4.19",
+    "morgan": "^1.9.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
